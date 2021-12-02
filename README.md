@@ -1,10 +1,9 @@
 # Getting Started ! :sparkles:
 
-If you are just beginning with web development then let's make your first contribution to the web development world !
+If you are just beginning with open source then let's make your first contribution in this repository !
 
-1. [`Preface`]()
-2. [`Contributing`]()
-3. [`Tutorial`]()
+1. [`Contributing`](https://github.com/bhavesh-chaudhari/starter/blob/mybranch/CONTRIBUTING.md)
+2. [`Tutorial`](https://github.com/bhavesh-chaudhari/starter/blob/mybranch/TUTORIAL.md)
 
 ### :page_with_curl: Preface
 
