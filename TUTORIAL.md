@@ -1,6 +1,6 @@
 ## Making your first contirbution at Konoha - Tutorial 🤖
 
-Before going through this tutorial please make sure that you have gone through the [Contributing]() markdown file.
+Before going through this tutorial please make sure that you have gone through the [Contributing](https://github.com/konoha-developers/starter/blob/main/CONTRIBUTING.md) markdown file.
 
 ## Now that you have switched to your branch, follow the below steps -
 
@@ -57,9 +57,9 @@ e.g. If your github username is `John-Doe` then make a folder with the name `Joh
 </html>
 ```
 
-3. In the above html you have to make 4 simple changes as follows -
-i) Inisde the title tag and the first h2 tag write your own name instead of John Doe
-ii) In the remaining two h2 tags write something you believe and something you like respectively.
-iii) Then it is done.
+3. In the above html you have to make 4 simple changes as follows -  
+i) Inisde the title tag and the first h2 tag write your own name instead of John Doe  
+ii) In the remaining two h2 tags write something you believe and something you like respectively.  
+iii) Then it is done.  
 
 4. Now your work is done so the next step is to push it on github in your fork. So let's go back to the Contributing file now and see how that can be done.
