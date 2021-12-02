@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.contributor-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: black;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.contributor-page .heading{
+  margin-bottom: 2rem;
+}
+
+.contributor-page .heading h1 {
+  background: linear-gradient(to right,palevioletred, #ffffff , palevioletred );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem
+}
+
+.contributor-content {
+  text-align: center;
+  border: 1px solid palevioletred;
+  padding: 4rem;
+  max-width: 800px;
+}
+
+.contributor-content > div {
+  margin-bottom: 2rem;
+}
+
+.contributor-page h1 {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.contributor-page h2 {
+  font-weight: 300;
+  color: palevioletred;
+  line-height: 2rem;
+  letter-spacing: 1px;
+}
+
+.contributor-page hr {
+  max-width: 1000px;
+}
+
+.back-button {
+  margin-top: 3rem;
+}
+
+.back-button button {
+  background: transparent;
+  color: palevioletred;
+  border: 1px solid white;
+  padding: 6px 12px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .contributor-page h1 {
+    color: #ffffff;
+    font-size: 1.5rem;
+  }
+  .contributor-page h2 {
+    font-size: 1.2rem;
+  }
+  .contributor-content {
+    padding: 2rem;
+  }
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.starter-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background: rgb(250, 252, 255);
+    background: black;
+    padding: 4rem;
+}
+
+.starter-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.konoha-image img{
+    width: 150px;
+    height: 150px;
+}
+
+.konoha-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: float 4s ease-in infinite;
+    background: palevioletred;
+    padding: 2rem;
+    border-radius: 50%;
+}
+
+@keyframes float {
+    0% {
+		box-shadow: 0 5px 15px 0px white;
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 15px 18px 0px white;
+		transform: translatey(-25px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px white;
+		transform: translatey(0px);
+	}
+}
+
+.konoha-image, .starter-header, .contributor-input{
+    margin-bottom: 2rem;
+}
+
+.starter-header h2{
+    font-weight: lighter;
+    color: palevioletred;
+    text-align: center;
+    line-height: 1.8rem;
+}
+
+.contributor-input input{
+    width: 200px;
+    padding: 0.5rem;
+    border-radius: 2px;
+    border: 1px solid palevioletred;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.page-button-link button{
+    padding: 6px 12px;
+    font-size: 1rem;
+    border: 1px solid palevioletred;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.page-button-link button:hover{
+    background: rgb(48, 47, 47);
+}
