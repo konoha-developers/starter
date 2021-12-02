@@ -8,8 +8,8 @@
 
 If you are just beginning with open source then let's make your first contribution in this repository !
 
-1. [`Contributing`](https://github.com/bhavesh-chaudhari/starter/blob/mybranch/CONTRIBUTING.md)
-2. [`Tutorial`](https://github.com/bhavesh-chaudhari/starter/blob/mybranch/TUTORIAL.md)
+1. [`Contributing`](https://github.com/konoha-developers/starter/blob/main/CONTRIBUTING.md)
+2. [`Tutorial`](https://github.com/konoha-developers/starter/blob/main/TUTORIAL.md)
 
 ### :page_with_curl: Preface
 
