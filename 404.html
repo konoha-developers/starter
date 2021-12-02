@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/konoha.png" type="image/x-icon" />
+    <title>STARTER |</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto", sans-serif;
+      }
+      .error-page{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          min-height: 100vh;
+          background: black;
+          padding: 2rem;
+      }
+      .error-page img{
+          width: 300px;
+          height: 300px;
+          border-radius: 50%;
+          margin: 2rem 0;
+      }
+      .error-page h1{
+          color: palevioletred;
+          font-weight: 500;
+          letter-spacing: 1px;
+          line-height: 2rem;
+          text-align: center;
+      }
+      .error-page a{
+        color: palevioletred;
+        transition: all 0.3s ease;
+      }
+      .error-page a:hover{
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="error-page">
+        <h1>No contributions found by given user !</h1>
+        <img src="assets/404.png" alt="">
+        <a href="https://konoha-developers.github.io/starter/">
+            Back to home page
+        </a>
+    </div>
+  </body>
+</html>

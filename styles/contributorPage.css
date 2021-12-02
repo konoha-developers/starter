@@ -70,6 +70,10 @@
   cursor: pointer;
 }
 
+.back-button button:hover{
+    background: rgb(48, 47, 47);
+}
+
 @media screen and (max-width: 600px) {
   .contributor-page h1 {
     color: #ffffff;
