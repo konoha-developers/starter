@@ -1,4 +1,4 @@
-## Making your first contirbution at Konoha - Tutorial 🤖
+## Making your first contribution at Konoha - Tutorial 🤖
 
 Before going through this tutorial please make sure that you have gone through the [Contributing](https://github.com/konoha-developers/starter/blob/main/CONTRIBUTING.md) markdown file.
 
