@@ -1,6 +1,6 @@
 ## Contributing
 
-Before following the below steps you have to make sure that git is installed on your local machine. If not then you can install git for your operating system from [`here`](https://git-scm.com/downloads).
+Before following the below steps you have to make sure that git is installed on your local machine. If not then you can install git for your operating system from [`here`](https://git-scm.com/downloads). If you are new to git and github and looking for good educational videos on it then [`this`](https://www.youtube.com/watch?v=3RjQznt-8kE&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR) might interest you.
 
 ### 1. Fork the repository
 
